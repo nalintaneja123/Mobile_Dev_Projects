@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">InClass11</string>
+    <string name="search">Search here</string>
+    <string name="clear">Clear Photos and Keyword Entered</string>
+</resources>

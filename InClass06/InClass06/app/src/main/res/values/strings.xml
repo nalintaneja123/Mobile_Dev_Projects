@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Main Activity</string>
+    <string name="showcategories">Show Categories</string>
+    <string name="go">Go</string>
+    <string name="newstitle">NewsTitle</string>
+    <string name="publishedat">Published At</string>
+    <string name="newsdescription">News Description</string>
+    <string name="nodes">No Description</string>
+</resources>
