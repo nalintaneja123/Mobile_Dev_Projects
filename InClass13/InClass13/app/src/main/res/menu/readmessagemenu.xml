@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/delete_message_menu"
+        android:title="DeleteMessage"
+        android:icon="@drawable/ic_action_discard"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/go_to_composemessage"
+        android:icon="@drawable/ic_action_reply"
+        android:title="Go To Compose Message"
+        app:showAsAction="ifRoom"/>
+
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/logoutbutton"
+        android:icon="@drawable/ic_settings_power"
+        android:title="Logout"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/compose_message_menu"
+           android:title="Compose message"
+          android:icon="@drawable/ic_action_new_email"
+           app:showAsAction="ifRoom" />
+
+    </menu>

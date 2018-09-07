@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.inclass13.ComposeMessage">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/to"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/txtViewSenderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imgViewSelectSenders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginTop="21dp"
+        app:srcCompat="@drawable/ic_action_person" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="21dp"
+        android:text="@string/send" />
+
+    <TextView
+        android:id="@+id/txtViewkeyOfReceiver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtViewSenderName"
+        android:layout_below="@+id/imgViewSelectSenders"
+        android:text="@string/receiverkey"
+        android:visibility="invisible" />
+
+    <EditText
+        android:id="@+id/editTextComposeMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imgViewSelectSenders"
+        android:ems="10"
+        android:hint="@string/composemessagehere"
+        android:inputType="textMultiLine" />
+</RelativeLayout>

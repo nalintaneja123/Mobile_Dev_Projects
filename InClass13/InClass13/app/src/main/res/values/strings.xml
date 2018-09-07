@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">InClass13</string>
+    <string name="login">Login</string>
+    <string name="newuser">New User</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="emailonSignup">Email</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="cancel">Cancel</string>
+    <string name="receivername">Receiver Name</string>
+    <string name="datetime">DateTime</string>
+    <string name="message">Message</string>
+    <string name="inbox">Inbox</string>
+    <string name="from">From :</string>
+
+    <string name="MessageDescription">MessageDescription</string>
+    <string name="to">To :</string>
+    <string name="senderName">Sender Name</string>
+    <string name="composemessagehere">Compose Message Here</string>
+    <string name="send">Send</string>
+
+    <string name="logingscreen">MessageMe!</string>
+    <string name="signupScreen">MessageMe!(Signup)</string>
+    <string name="receiverkey">ReceiverKey</string>
+
+</resources>

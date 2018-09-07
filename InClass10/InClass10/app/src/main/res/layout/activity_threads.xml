@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.inclass10.Threads">
+
+
+    <EditText
+        android:id="@+id/editTextAddThread"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="33dp"
+        android:layout_toStartOf="@+id/imgViewAddThread"
+        android:ems="10"
+        android:hint="@string/addNewThread"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/imgViewAddThread"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/editTextAddThread"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="13dp"
+        android:contentDescription="@string/addthread"
+        app:srcCompat="@drawable/ic_add" />
+
+    <TextView
+        android:id="@+id/txtViewUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editTextAddThread"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/username" />
+
+    <ImageView
+        android:id="@+id/imgViewLogoutOnThreadScreen"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignEnd="@+id/imgViewAddThread"
+        android:layout_alignTop="@+id/txtViewUserName"
+        android:contentDescription="@string/logout"
+        app:srcCompat="@drawable/ic_logout" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_above="@+id/imgViewAddThread"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txtViewCurrentThreadsDisplayed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtViewUserName"
+        android:layout_below="@+id/imgViewLogoutOnThreadScreen"
+        android:text="@string/currentthreads"
+        android:textSize="14sp" />
+
+</RelativeLayout>
