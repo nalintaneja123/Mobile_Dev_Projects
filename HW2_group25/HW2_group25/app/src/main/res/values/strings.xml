@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HW2_group25</string>
+    <string name="save">Save</string>
+    <string name="medium">Medium</string>
+    <string name="Low">Low</string>
+    <string name="High">High</string>
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="priority">Priority :</string>
+    <string name="view_task">View Task</string>
+    <string name="create_task">Create Task</string>
+    <string name="edit_task">Edit Task</string>
+
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saipavanraju.inclass4.Main2Activity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="46dp"
+        android:text="@string/selectPasswordsCount"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <SeekBar
+        android:id="@+id/seekBarPasswordCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtViewPasswordsCount"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="29dp" />
+
+    <TextView
+        android:id="@+id/txtViewPasswordsCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="32dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/seekBarPasswordCount"
+        android:layout_marginTop="22dp"
+        android:text="@string/selectpasswordlength"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/txtSelectPasswordLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignEnd="@+id/seekbarLength"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <SeekBar
+        android:id="@+id/seekbarLength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/seekBarPasswordCount"
+        android:layout_alignStart="@+id/seekBarPasswordCount"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="21dp" />
+
+    <Button
+        android:id="@+id/btnGeneratePasswordsByThread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/seekbarLength"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/seekbarLength"
+        android:layout_marginTop="117dp"
+        android:text="@string/generatepasswordsthread" />
+
+    <Button
+        android:id="@+id/btnGeneratePasswordsbyAsyncTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btnGeneratePasswordsByThread"
+        android:layout_alignStart="@+id/btnGeneratePasswordsByThread"
+        android:layout_below="@+id/btnGeneratePasswordsByThread"
+        android:layout_marginTop="23dp"
+        android:text="@string/generatepasswordsasynctask" />
+
+    <TextView
+        android:id="@+id/text_viewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtpasswordanswer"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="29dp"
+        android:text="@string/password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txtpasswordanswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/text_viewPassword"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible" />
+</RelativeLayout>

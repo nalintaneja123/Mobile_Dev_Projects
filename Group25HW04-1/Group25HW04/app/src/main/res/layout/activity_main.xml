@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.group25hw04.MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtViewShowCategories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnGo"
+        android:layout_alignBottom="@+id/btnGo"
+        android:layout_toStartOf="@+id/txtViewTotalImagesDisplayed"
+        android:text="@string/showcategories"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17dp"
+        android:layout_toEndOf="@+id/imgViewDisplayNewsImage"
+        android:text="@string/Go" />
+
+    <ImageView
+        android:id="@+id/imgViewprevious"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp"
+        app:srcCompat="@drawable/prev" />
+
+    <ImageView
+        android:id="@+id/imgviewNext"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imgViewprevious"
+        android:layout_marginEnd="12dp"
+        app:srcCompat="@drawable/next" />
+
+    <ImageView
+        android:id="@+id/imgViewDisplayNewsImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/txtViewPublishedAt"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/txtViewNewsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="@string/newstitle"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtViewPublishedAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtViewNewsTitle"
+        android:layout_below="@+id/txtViewNewsTitle"
+        android:layout_marginTop="22dp"
+        android:text="@string/publishedat" />
+
+    <TextView
+        android:id="@+id/txtViewNewsDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgViewDisplayNewsImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/newsdescription" />
+
+    <TextView
+        android:id="@+id/txtViewTotalImagesDisplayed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgViewprevious"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="@string/totalnews"
+        android:textSize="18sp" />
+
+</RelativeLayout>

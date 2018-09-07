@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Apps</string>
+    <string name="genre">Genre:</string>
+    <string name="filter">Filter</string>
+    <string name="genrevalue">GenreValue</string>
+    <string name="appName">AppName</string>
+    <string name="artist">Artist</string>
+    <string name="releaseDate">ReleaseDate</string>
+    <string name="genrelist">genre</string>
+    <string name="apptitle">App Title</string>
+    <string name="releasedate">Release Date</string>
+    <string name="appgeneres">App Generes</string>
+    <string name="ArtistName">ArtistName</string>
+    <string name="copyright">Copy Right</string>
+    <string name="titleof2ndactivity">App Details</string>
+
+</resources>

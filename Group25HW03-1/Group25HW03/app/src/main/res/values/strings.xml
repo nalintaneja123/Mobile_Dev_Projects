@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Trivia App</string>
+    <string name="welcometotriviaapp">Welcome To Trivia App</string>
+    <string name="exit">Exit</string>
+    <string name="starttrivia">Start Trivia</string>
+    <string name="triviaready">Trivia Ready</string>
+    <string name="Q">Q</string>
+    <string name="QuestionNumber">QuestionNumber</string>
+    <string name="timer">Timer</string>
+    <string name="questionContent">QuestionContent</string>
+    <string name="Quit">Quit</string>
+    <string name="tryagain">Try Again</string>
+    <string name="next">Next</string>
+    <string name="triviastats">Trivia Stats</string>
+    <string name="correctAnswers">Correct Answers</string>
+    <string name="progressvalue">Progress Value</string>
+    <string name="txtfortryagain">Try again and see if you can get all the correct answers</string>
+    <string name="quit">Quit</string>
+
+  <!--  <string name="tryagain">Try Again</string>-->
+</resources>
